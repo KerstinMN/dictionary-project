@@ -2,7 +2,7 @@ import "./App.css";
 import logo from "./logo-kmn.JPG";
 import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
@@ -19,5 +19,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
